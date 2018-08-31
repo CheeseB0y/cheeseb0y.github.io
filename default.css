@@ -1,0 +1,158 @@
+@font-face
+{
+    font-family:comic;
+    src:url('http://www.johnwoodofficial.com/fnt/comic.ttf');
+}
+@font-face
+{
+	font-family:lcd;
+	src:url('http://www.johnwoodofficial.com/fnt/lcd.ttf');
+}
+
+@font-face
+{
+	font-family:magneto;
+	src:url('http://www.johnwoodofficial.com/fnt/mgntb.ttf');
+}
+
+@font-face
+{
+	font-family:orc;
+	src:url('http://www.johnwoodofficial.com/fnt/orcaext.ttf');
+}
+
+@font-face
+{
+	font-family:virtual-dj;
+	src:url('http://www.johnwoodofficial.com/fnt/vdj.ttf');
+}
+
+a:active
+{
+	color:#EE0000;
+	text-decoration:underline;
+}
+
+a:hover
+{
+	color:#EE0000;
+	text-decoration:underline;
+}
+
+a:link
+{
+	color:#0000EE;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:#551A8B;
+	text-decoration:none;
+}
+
+body
+{
+	background-attachment:fixed;
+    background-image:url('http://www.johnwoodofficial.com/img/bgr.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+    padding:30px;
+}
+
+button
+{
+    background-color:#FFFFFF;
+    box-shadow:10px 5px 5px;
+    cursor:pointer;
+    font-family:orc;
+	font-size:20px;
+    padding:10px;
+}
+
+footer
+{
+    clear:both;
+    position:relative;
+}
+
+h1
+{
+	color:#000000;
+	text-align:center;
+    font-family:virtual-dj;
+	font-size:100px;
+}
+
+nav
+{
+    background-color:#27408B;
+    border-radius:5px;
+    box-shadow:10px 5px 5px;
+    padding:10px;
+    margin:auto;
+    text-align:center;
+}
+
+p
+{
+	color:#000000;
+	font-family:orc;
+	font-size:20px;
+    text-indent:30px;
+}
+
+.menu
+{
+    background-color:#FFFFFF;
+    border-radius:10px;
+    color:#000000;
+    display:inline-block;
+    font-family:lcd;
+    font-size:45px;
+    margin:auto;
+    padding:5px;
+    text-decoration:none;
+}
+
+.left
+{
+    float:left;
+    width:75%;
+}
+
+.post
+{
+	background-color:#FFFFFF;
+	box-shadow:10px 5px 5px;
+    padding:10px;
+}
+
+.right
+{
+    float:right;
+    width:25%;
+}
+
+#natwt
+{
+    background-color:#27408B;
+    cursor:pointer;
+    padding:15px;
+    margin:auto;
+    width:30%;
+}
+
+#natwdl
+{
+    background-color:#27408B;
+    padding:15px;
+    margin:auto;
+    width:30%;
+}
+
+#scl
+{
+    height:16px;
+    width:16px;
+}
